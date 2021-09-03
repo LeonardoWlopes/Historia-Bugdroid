@@ -1,21 +1,46 @@
-
+@charset "UTF-8";
 body{
     font: normal 16px sans-serif;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #84e1ad;
     margin: 0px;
 }
-header{
-    background-image: linear-gradient(#3cda83, #195734);
-    height: 200px;
+article > h2{
+    background-color: #1aec7556;
+    padding: 3px;
+}
+header{ 
+    text-shadow: 2px 2px 3px black;
+    height: 150px;
     text-align: center;
     padding: 10px;
     color: white;
-    
+    background-image: linear-gradient(#3cda83, #195734);
 }
-#div_principal{
+header > p{
+    transform: translateY(30px);
+}
+article{
     padding: 10px;
     margin: auto;
     background-color: white;
     width: 60%;
+}
+
+#painel_superior{   
+    background-image: linear-gradient(#3cda83, #195734);
+}
+nav{
+    padding: 10px 50px;
+    background-color: #195734;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+    font: bolder 16px sans-serif;
+}
+nav > a:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
 }
