@@ -71,6 +71,12 @@ footer{
 img{
     width: 100%;
 }
+.img_pequena{
+    display: block;
+    margin: auto;
+    
+    width: 60%;
+}
 iframe{
     width: 100%;
 }
