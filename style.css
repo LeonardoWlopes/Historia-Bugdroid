@@ -17,7 +17,6 @@
     --fonte-android:'android', cursive;
 }
 body{
-    font: normal 16px sans-serif;
     font-family:var(--fonte-padrao) ;
     background-color:var(--cor0);
     margin: 0px;
@@ -66,9 +65,12 @@ article > h2{
     padding: 3px;
 }
 footer{
-    background-color: var(--cor5);
+    background-color: var(--cor4);
     color: white;
 }
 img{
+    width: 100%;
+}
+iframe{
     width: 100%;
 }
