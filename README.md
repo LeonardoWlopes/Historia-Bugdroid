@@ -1,2 +1,3 @@
 # android
- Site criado para praticar, com a tematica "Android".
+ Site criado como desafio do curso de HTLM e CSS do Curso em video.
+
